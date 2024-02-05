@@ -3,10 +3,10 @@ package com.example;
 import java.util.Scanner;
 
 public class App {
-    public static void main(String[] args) {
 
-        // Scanner to take user input
-        Scanner scan = new Scanner(System.in);
+    // Scanner to take user input
+    static Scanner scan = new Scanner(System.in);
+    public static void main(String[] args) {
 
         // Variables to store user and computer moves, game status, and winner
         byte input;
